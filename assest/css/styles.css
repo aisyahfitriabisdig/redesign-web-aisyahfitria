@@ -101,7 +101,8 @@ body {
     padding: 5px 5px;
     text-decoration: none;
     font-size: 17px;
-}   margin:  10px; /* Jarak antara menu */
+    margin: 2px; /* Jarak antara menu */
+}   
 
 .navbar a:hover {
     background-color: #f7f3f3; /* Warna latar belakang saat hover */
