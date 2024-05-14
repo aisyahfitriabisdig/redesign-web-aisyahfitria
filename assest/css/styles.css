@@ -97,12 +97,11 @@ body {
     float: left;
     display: block;
     color: #050000; /* Warna teks putih */
-    text-align: right;
-    padding: 5px 5px;
+    text-align: center;
+    padding: 5px 8px;
     text-decoration: none;
-    font-size: 11px;
-    margin: 0px; /* Jarak antara menu */
-}   
+    font-size: 17px;
+}
 
 .navbar a:hover {
     background-color: #f7f3f3; /* Warna latar belakang saat hover */
