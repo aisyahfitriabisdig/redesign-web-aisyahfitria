@@ -101,11 +101,8 @@ body {
     padding: 5px 5px;
     text-decoration: none;
     font-size: 17px;
-}   
+}   margin:  10px; /* Jarak antara menu */
 
-.ast-primary-header .site-navigation ul li a:hover  {
-    margin-bottom: 5px
-}
 .navbar a:hover {
     background-color: #f7f3f3; /* Warna latar belakang saat hover */
     color: rgb(24, 2, 2);
