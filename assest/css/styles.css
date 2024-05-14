@@ -44,3 +44,37 @@ body {
     font-size: 16px;
     margin: 0;
 }
+/* navbar.css */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    padding: 15px 30px;
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
