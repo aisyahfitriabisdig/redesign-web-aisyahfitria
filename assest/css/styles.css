@@ -106,45 +106,31 @@ body {
     background-color: #f7f3f3; /* Warna latar belakang saat hover */
     color: rgb(24, 2, 2);
 }
-/* CSS untuk styling */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
-.container {
-    display: flex; /* Menjadikan container sebagai flex container */
-    flex-wrap: wrap; /* Mengatur agar item-item bisa melingkar jika perlu */
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-}
-.article {
-    flex: 1 1 calc(50% - 20px); /* Membuat artikel memanfaatkan sebagian besar ruang */
-    background-color: #fff;
-    margin-right: 20px; /* Memberikan jarak antara artikel */
-    margin-bottom: 20px; /* Memberikan jarak antara baris */
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-.article:last-child {
-    margin-right: 0; /* Menghapus margin kanan pada artikel terakhir */
-}
-.article .content {
-    padding: 20px; /* Memberikan padding di dalam konten artikel */
-}
-.article h2 {
-    margin-top: 0;
-}
-.hr {
-    border: 0;
-    border-top: 1px solid #ddd;
-}
-.read-more {
-    display: block;
-    text-align: right;
-    margin-top: 10px;
-    color: blue;
-    text-decoration: none;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contoh Artikel</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="article">
+  <div class="article-box">
+    <h2>Judul Artikel Pertama</h2>
+    <p>Ini adalah cuplikan artikel pertama. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    <a href="#" class="read-more-btn">Read More</a>
+  </div>
+</div>
+
+<div class="article">
+  <div class="article-box">
+    <h2>Judul Artikel Kedua</h2>
+    <p>Ini adalah cuplikan artikel kedua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    <a href="#" class="read-more-btn">Read More</a>
+  </div>
+</div>
+
+</body>
+</html>
