@@ -106,70 +106,6 @@ body {
     background-color: #f7f3f3; /* Warna latar belakang saat hover */
     color: rgb(24, 2, 2);
 }
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.content {
-    width: 65%;
-}
-
-.sidebar {
-    width: 30%;
-    padding-left: 20px;
-}
-
-h2, h3, h4 {
-    color: #333;
-}
-
-p {
-    margin: 10px 0;
-}
-
-.date {
-    color: #777;
-    font-size: 0.9em;
-}
-
-ul {
-    margin: 10px 0;
-    padding-left: 20px;
-}
-
-li {
-    margin: 5px 0;
-}
-
-iframe {
-    width: 100%;
-    height: auto;
-}
-
-.article-box {
-    border: 1px solid #ccc;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
-
-.read-more {
-    color: #007BFF;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.read-more:hover {
-    text-decoration: underline;
-}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -182,6 +118,8 @@ iframe {
 }
 
 .article-box {
+    display: flex;
+    justify-content: space-between;
     border: 1px solid #ddd;
     padding: 20px;
     margin-bottom: 20px;
@@ -189,17 +127,21 @@ iframe {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.article-box h3 {
+.article-content {
+    flex: 0 0 70%; /* Perhatikan ukuran ini dapat disesuaikan */
+}
+
+.text-content h3 {
     margin-top: 0;
 }
 
-.article-box .date {
+.text-content .date {
     color: #888;
     font-size: 0.9em;
     margin-bottom: 10px;
 }
 
-.article-box .read-more {
+.text-content .read-more {
     display: inline-block;
     margin-top: 10px;
     color: #0066cc;
@@ -207,6 +149,34 @@ iframe {
     font-weight: bold;
 }
 
-.article-box .read-more:hover {
+.text-content .read-more:hover {
+    text-decoration: underline;
+}
+
+.sidebar {
+    flex: 0 0 25%; /* Perhatikan ukuran ini dapat disesuaikan */
+}
+
+.youtube-box,
+.calendar-box {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.youtube-box h4,
+.calendar-box h4 {
+    margin-top: 0;
+}
+
+.youtube-box a,
+.calendar-box a {
+    text-decoration: none;
+    color: #333;
+}
+
+.youtube-box a:hover,
+.calendar-box a:hover {
     text-decoration: underline;
 }
