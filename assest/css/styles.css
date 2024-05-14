@@ -104,6 +104,6 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #555; /* Warna latar belakang saat hover */
+    background-color: #f7f3f3; /* Warna latar belakang saat hover */
     color: rgb(24, 2, 2);
 }
