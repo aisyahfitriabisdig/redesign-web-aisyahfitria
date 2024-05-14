@@ -4,38 +4,51 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 0;
+}
+
+header {
     background-color: #333;
-}
-
-header h1 {
-    margin: 0;
     color: #fff;
+    padding: 10px 0;
 }
 
-nav ul {
+.logo {
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.nav-links {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-nav ul li {
+.nav-links li {
     display: inline;
-    margin-right: 20px;
 }
 
-nav ul li a {
+.nav-links li a {
     text-decoration: none;
     color: #fff;
+    padding: 10px;
+}
+
+.nav-links li a:hover {
+    background-color: #555;
+    border-radius: 5px;
 }
 
 .search-box {
     display: flex;
-    align-items: center;
 }
 
 .search-box input[type="text"] {
