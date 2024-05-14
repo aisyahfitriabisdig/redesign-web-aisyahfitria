@@ -33,6 +33,7 @@ body {
 
 .header-text {
     margin-left: 20px;
+    font-weight: bold;
 }
 
 .header-text h1 {
@@ -76,13 +77,13 @@ body {
 }
 
 .nav-link:hover {
-    color: #a3bcef;
+    color: #fcfdff;
 }
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}   Font-weight:  bold;
+}
 
 .header {
     background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
@@ -98,7 +99,7 @@ body {
     display: block;
     color: #050000; /* Warna teks putih */
     text-align: center;
-    padding: 5px 8px;
+    padding: 8px 8px;
     text-decoration: none;
     font-size: 17px;
 }
