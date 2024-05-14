@@ -1,11 +1,21 @@
-<div id="divlogo-txt">
-								<div class="intube">
-									<div id="siteTitle">
-										<h1>Kalurahan Sriharjo</h1>
-										<h2>Kapanewon Imogiri<br>
-										Kabupaten Bantul</h2><h2>
-										</h2><h4>Daerah Istimewa Yogyakarta</h4>
-										<h3>Mojohuro, Sriharjo, Imogiri, Bantul, DIY</h3>
-									</div>
-								</div>
-							</div>
+/* styles.css */
+
+/* Ganti warna latar belakang header */
+header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+/* Ubah gaya teks navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Warna biru Bootstrap */
+}
