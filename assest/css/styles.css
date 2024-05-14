@@ -2,20 +2,22 @@
 
 /* Ganti warna latar belakang header */
 header {
-    background-color: #f8f9fa;
+    background-color: #FFFFFF;
     padding: 10px 0;
 }
 
 /* Ubah gaya teks navbar */
 .navbar-brand {
     font-weight: bold;
+    color: #000000; /* Warna teks hitam */
 }
 
 .navbar-nav .nav-link {
     font-weight: bold;
-    color: #333;
+    color: #000000; /* Warna teks hitam */
+    margin-right: 20px; /* Jarak antara menu */
 }
 
 .navbar-nav .nav-link:hover {
-    color: #007bff; /* Warna biru Bootstrap */
+    color: #007BFF; /* Warna teks biru */
 }
