@@ -16,8 +16,8 @@ body {
 
 /* Header */
 .header {
-    background: #fafafa;
-    color: #fff;
+    background: #e4e0e0;
+    color: #060000;
     padding: 20px 0;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .header-logo img {
-    width: 10px;
+    width: 60px;
     height: auto;
 }
 
