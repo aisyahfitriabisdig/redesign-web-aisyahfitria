@@ -106,77 +106,46 @@ body {
     background-color: #f7f3f3; /* Warna latar belakang saat hover */
     color: rgb(24, 2, 2);
 }
+/* CSS untuk styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    display: flex; /* Menjadikan container sebagai flex container */
+    flex-wrap: wrap; /* Mengatur agar item-item bisa melingkar jika perlu */
+    max-width: 800px;
+    margin: auto;
     padding: 20px;
 }
-
-.content h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.article-box {
-    display: flex;
-    justify-content: space-between;
+.article {
+    flex: 1 1 calc(50% - 20px); /* Membuat artikel memanfaatkan sebagian besar ruang */
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 20px; /* Memberikan jarak antara artikel */
+    margin-bottom: 20px; /* Memberikan jarak antara baris */
     border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
-
-.article-content {
-    flex: 0 0 70%; /* Perhatikan ukuran ini dapat disesuaikan */
+.article:last-child {
+    margin-right: 0; /* Menghapus margin kanan pada artikel terakhir */
 }
-
-.text-content h3 {
+.article .content {
+    padding-bottom: 20px;
+}
+.article h2 {
     margin-top: 0;
 }
-
-.text-content .date {
-    color: #888;
-    font-size: 0.9em;
-    margin-bottom: 10px;
+.hr {
+    border: 0;
+    border-top: 1px solid #ddd;
 }
-
-.text-content .read-more {
-    display: inline-block;
+.read-more {
+    display: block;
+    text-align: right;
     margin-top: 10px;
-    color: #0066cc;
+    color: blue;
     text-decoration: none;
-    font-weight: bold;
-}
-
-.text-content .read-more:hover {
-    text-decoration: underline;
-}
-
-.sidebar {
-    flex: 0 0 25%; /* Perhatikan ukuran ini dapat disesuaikan */
-}
-
-.youtube-box,
-.calendar-box {
-    background-color: #f9f9f9;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-}
-
-.youtube-box h4,
-.calendar-box h4 {
-    margin-top: 0;
-}
-
-.youtube-box a,
-.calendar-box a {
-    text-decoration: none;
-    color: #333;
-}
-
-.youtube-box a:hover,
-.calendar-box a:hover {
-    text-decoration: underline;
 }
