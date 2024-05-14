@@ -170,3 +170,43 @@ iframe {
 .read-more:hover {
     text-decoration: underline;
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.article-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article-box h3 {
+    margin-top: 0;
+}
+
+.article-box .date {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.article-box .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article-box .read-more:hover {
+    text-decoration: underline;
+}
