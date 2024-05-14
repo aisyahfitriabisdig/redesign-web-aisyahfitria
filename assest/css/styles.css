@@ -101,7 +101,7 @@ body {
     padding: 5px 5px;
     text-decoration: none;
     font-size: 17px;
-    margin: 2px; /* Jarak antara menu */
+    margin: 0 10px; /* Jarak antara menu */
 }   
 
 .navbar a:hover {
