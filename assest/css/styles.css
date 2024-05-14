@@ -78,3 +78,32 @@ body {
 .nav-link:hover {
     color: #007bff;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+}
+
+.navbar {
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff; /* Warna teks putih */
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: #555; /* Warna latar belakang saat hover */
+    color: white;
+}
