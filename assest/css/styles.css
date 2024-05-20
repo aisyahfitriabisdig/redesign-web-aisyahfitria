@@ -1,195 +1,54 @@
-/* styles.css */
-
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-}
-
-/* Header */
-.header {
-    background: #e4e0e0;
-    color: #060000;
-    padding: 20px 0;
-}
-
-.header .container {
-    display: flex;
-    align-items: center;
-}
-
-.header-logo img {
-    width: 80px;
-    height: auto;
-}
-
-.header-text {
-    margin-left: 20px;
-    font-weight: bold;
-}
-
-.header-text h1 {
-    font-size: 24px;
-    margin-bottom: 6px;
-}
-
-.header-text p {
-    font-size: 16px;
-    margin: 0;
-}
-
-/* navbar.css */
-.navbar {
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.navbar-brand {
-    padding: 15px 30px;
-}
-
-.navbar-brand img {
-    max-width: 100%;
-    height: auto;
-}
-
-.navbar-nav {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-}
-
-.nav-item {
-    margin-right: 20px;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #333333;
-    font-weight: bold;
-}
-
-.nav-link:hover {
-    color: #fcfdff;
-}
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-.header {
-    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
-}
-.navbar {
-    overflow: hidden;
-    text-align: center;
-}
-.navbar a {
-    float: left;
-    display: block;
-    color: #050000; /* Warna teks putih */
-    text-align: center;
-    padding: 8px 8px;
-    text-decoration: none;
-    font-size: 17px;
-}
-.navbar a:hover {
-    background-color: #f7f3f3; /* Warna latar belakang saat hover */
-    color: rgb(24, 2, 2);
-}
-.article {
-  display: flex;
-  justify-content: center;
-}
-
-.article-box {
-  width: 300px;
-  border: 1px solid #ccc;
-  margin: 20px;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.article-header {
-  padding: 20px;
-  background-color: #007bff;
-  color: #fff;
-}
-
-.article-title {
   margin: 0;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 
-.article-content {
-  padding: 20px;
+header {
+  background-color: #003366;
+  color: white;
+  border-bottom: 4px solid #FFD700; /* Warna garis kuning */
 }
 
-.article-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #f9f9f9;
-}
-
-.read-more-btn {
-  display: inline-block;
+.header-container {
+  display: flex;
+  align-items: center;
   padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
 }
-.articles {
-    display: flex;
-    justify-content: center;
-    flex-wrap: horizontal;
-  }
-  
-  .article {
-    margin: 20px;
-  }
-  
-  .article-box {
-    width: 300px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .article-header {
-    padding: 20px;
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  .article-title {
-    margin: 0;
-  }
-  
-  .article-content {
-    padding: 20px;
-  }
-  
-  .article-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #f9f9f9;
-  }
-  
-  .read-more-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
+
+.logo {
+  height: 80px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 2px; /* Ubah ukuran tulisan di sini */
+  margin: 12;
+  flex-grow: 5; /* Membuat teks h1 mengisi ruang yang tersisa */
+}
+
+nav {
+  background-color: #003366;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 20px; /* Memberikan jarak antar item navbar */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  padding: 14px 15px;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #0055a5;
+}
