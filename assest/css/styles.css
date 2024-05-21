@@ -1,12 +1,13 @@
 body {
   margin: 0;
   font-family: 'Times New Roman', Times, serif, sans-serif;
+  background-color: #f0f0f0;
 }
 
 header {
-  background-color: #003366;
-  color: white;
-  border-bottom: 4px solid #FFD700; /* Warna garis kuning */
+  background-color: #dee1e4;
+  color: #080000;
+  border-bottom: 4px solid #00ff44;
 }
 
 .header-container {
@@ -20,14 +21,19 @@ header {
   margin-right: 20px;
 }
 
-h1 {
-  font-size: 2px; /* Ubah ukuran tulisan di sini */
-  margin: 12;
-  flex-grow: 5; /* Membuat teks h1 mengisi ruang yang tersisa */
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-text h6 {
+  margin: 0;
+  line-height: 1.2;
 }
 
 nav {
-  background-color: #003366;
+  margin-left: auto;
 }
 
 .navbar {
@@ -35,20 +41,67 @@ nav {
   margin: 0;
   padding: 0;
   display: flex;
+  gap: 15px;
 }
 
 .navbar li {
   display: inline;
-  margin-left: 20px; /* Memberikan jarak antar item navbar */
 }
 
 .navbar a {
   text-decoration: none;
-  color: white;
-  padding: 14px 15px;
+  color: #120202;
+  padding: 14px 20px;
   display: block;
 }
 
 .navbar a:hover {
-  background-color: #0055a5;
+  background-color: #f1fcf4;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.news-box {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.news-box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.news-box p {
+  margin: 0 0 10px;
+}
+
+.news-box a {
+  color: #010912;
+  text-decoration: none;
+}
+
+.news-box a:hover {
+  text-decoration: underline;
 }
